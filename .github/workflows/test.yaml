@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - fish
+          - daniel-fish
         baseImage:
           - ubuntu:latest
     steps:
@@ -31,7 +31,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - fish
+          - daniel-fish
     steps:
       - uses: actions/checkout@v3
 
