@@ -15,3 +15,5 @@ sudo apt-get upgrade
 
 echo "Installing fish-shell"
 sudo apt-get install fish
+
+echo "Finished setting up Fish shell"
