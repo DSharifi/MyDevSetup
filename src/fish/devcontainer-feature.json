@@ -2,5 +2,5 @@
     "name": "Fish Shell Latest",
     "id": "daniel-fish-installer",
     "version": "0.0.1",
-    "description": "Installs the latest fish shell.",
+    "description": "Adds Fish PPA and installs latest version of Fish Shell"
 }
