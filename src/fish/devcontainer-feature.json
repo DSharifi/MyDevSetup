@@ -1,6 +1,6 @@
 {
     "name": "Fish Shell Latest",
     "id": "fish",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Adds Fish PPA and installs latest version of Fish Shell"
 }
