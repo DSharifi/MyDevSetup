@@ -2,5 +2,12 @@
     "name": "Fish Shell Latest",
     "id": "fish",
     "version": "0.0.4",
-    "description": "Adds Fish PPA and installs latest version of Fish Shell"
+    "description": "Adds Fish PPA and installs latest version of Fish Shell",
+    "options": {
+        "config-starship": {
+            "type": "boolean",
+            "default": false,
+            "description": "Adds starship to config.fish"
+        }
+    }
 }

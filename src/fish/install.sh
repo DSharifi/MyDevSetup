@@ -18,5 +18,7 @@ apt-get -y install fish
 
 echo "Finished installing Fish shell"
 
-echo "Adding starship to config"
-echo 'starship init fish | source' >> ~/.config/fish/config.fish
+if ${CONFIG-STARSHIP} then
+      echo "Adding starship to config"
+      echo 'starship init fish | source' >> ~/.config/fish/config.fish
+fi
