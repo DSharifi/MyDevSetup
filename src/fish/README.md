@@ -11,7 +11,11 @@ Adds Fish PPA and installs latest version of Fish Shell
 }
 ```
 
+## Options
 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| config-starship | Adds starship to config.fish | boolean | false |
 
 
 
