@@ -20,5 +20,5 @@ echo "Finished installing Fish shell"
 
 if [ ${CONFIG-STARSHIP} ]; then
       echo "Adding starship to config"
-      echo 'starship init fish | source' >> ~/.config/fish/config.fish
+      echo 'starship init fish | source' >> $_CONTAINER_USER_HOME.config/fish/config.fish
 fi
