@@ -10,7 +10,7 @@ add-apt-repository ppa:fish-shell/release-3
 echo "Updating package list"
 apt-get -y update
 
-echo "Updgrading packages" 
+echo "Upgrading packages" 
 apt-get -y upgrade
 
 echo "Installing fish-shell"
