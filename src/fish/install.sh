@@ -10,10 +10,13 @@ add-apt-repository ppa:fish-shell/release-3
 echo "Updating package list"
 apt-get -y update
 
-echo "Updgrading packages"
+echo "Updgrading packages" 
 apt-get -y upgrade
 
 echo "Installing fish-shell"
 apt-get -y install fish
 
-echo "Finished setting up Fish shell"
+echo "Finished installing Fish shell"
+
+echo "Adding starship to config"
+echo 'starship init fish | source' >> ~/.config/fish/config.fish
