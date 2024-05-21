@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+echo "Updating package lists"
+apt-get -y update
+
 echo "Installing software-properties-common"
 apt-get -y install software-properties-common
 
