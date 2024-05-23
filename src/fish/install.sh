@@ -26,15 +26,15 @@ if [ ${CONFIG-STARSHIP} ]; then
       echo 'starship init fish | source' >> /etc/fish/config.fish
 
       echo "Customizing starship to only display Rust version"
-      mkdir -p ~/.config && touch ~/.config/starship.toml
+      mkdir -p $HOME/.config && touch $HOME/.config/starship.toml
 
-      echo "[buf]" >> ~/.config/starship.toml
-      echo "disabled = true" >> ~/.config/starship.toml
-      echo "[python]" >> ~/.config/starship.toml
-      echo "disabled = true" >> ~/.config/starship.toml
-      echo "[golang]" >> ~/.config/starship.toml
-      echo "disabled = true" >> ~/.config/starship.toml
-      echo "[package]" >> ~/.config/starship.toml
-      echo "disabled = true" >> ~/.config/starship.toml
+      echo "[buf]" >> $HOME/.config/starship.toml
+      echo "disabled = true" >> $HOME/.config/starship.toml
+      echo "[python]" >> $HOME/.config/starship.toml
+      echo "disabled = true" >> $HOME/.config/starship.toml
+      echo "[golang]" >> $HOME/.config/starship.toml
+      echo "disabled = true" >> $HOME/.config/starship.toml
+      echo "[package]" >> $HOME/.config/starship.toml
+      echo "disabled = true" >> $HOME/.config/starship.toml
       
 fi
