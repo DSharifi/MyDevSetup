@@ -26,15 +26,15 @@ if [ ${CONFIG-STARSHIP} ]; then
       echo 'starship init fish | source' >> /etc/fish/config.fish
 
       echo "Customizing starship to only display Rust version"
-      mkdir -p $_CONTAINER_USER_HOME/.config && touch $_CONTAINER_USER_HOME/.config/starship.toml
+      mkdir -p $_REMOTE_USER_HOME/.config && touch $_REMOTE_USER_HOME/.config/starship.toml
 
-      echo "[buf]" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "disabled = true" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "[python]" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "disabled = true" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "[golang]" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "disabled = true" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "[package]" >> $_CONTAINER_USER_HOME/.config/starship.toml
-      echo "disabled = true" >> $_CONTAINER_USER_HOME/.config/starship.toml
+      echo "[buf]" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "disabled = true" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "[python]" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "disabled = true" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "[golang]" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "disabled = true" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "[package]" >> $_REMOTE_USER_HOME/.config/starship.toml
+      echo "disabled = true" >> $_REMOTE_USER_HOME/.config/starship.toml
       
 fi
